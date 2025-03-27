@@ -8,15 +8,17 @@ This project aims to enhance operational efficiency and revenue at traditional d
 
 ### 1. Data Preprocessing
 - Read over 120M records from PostgreSQL
-- Cleaned 5 datasets (SKU, Store, Department, Transactions, SKU-Store Info)
-- Addressed data inconsistencies, missing values, duplicates, and outliers
+- Cleaned 5 datasets (SKU, Store, Department, Transactions, SKU-Store Info). Addressed data inconsistencies, missing values, duplicates, and outliers
 
 ### 2. Exploratory Data Analysis
-- Analyzed trends by brand, department, state, and time
+- Analyzed correlation betweem numeric variables
+- Analyzed sales trends by brand, department, state, and time
 - Found holiday season peaks and high-performing brands/departments
 
 ### 3. Feature Engineering
-- Selected Predictors: cost, retail price, packsize, month, color, and store state
+- Extracted year and month from transaction date
+- Categorized product colors into broader color groups (e.g., black, white, red, blue, green) to simplify and standardize color feature
+- Selected predictors (cost, retail price, packsize, month, color, and store state) for modeling
 - Standardized numeric values and one-hot encoded categorical features
 
 ### 4. Model Training
@@ -35,14 +37,19 @@ We evaluated models based on:
 
 | Model           | R² Score | MSE     |
 |----------------|----------|---------|
-| Linear          | 0.6312   | 292.91  |
-| Ridge           | 0.6312   | 292.91  |
-| Lasso           | 0.6310   | 293.05  |
-| **LightGBM**    | **0.7575** | **192.57** |
-| XGBoost         | 0.7532   | 195.99  |
+| Linear Regression| 0.6312   | 292.91  |
+| Ridge Regression | 0.6312   | 292.91  |
+| Lasso Regression | 0.6310   | 293.05  |
+| **LightGBM**     | **0.7575** | **192.57** |
+| XGBoost          | 0.7532   | 195.99  |
 
-LightGBM outperformed all models and was selected for final deployment due to its accuracy and speed.
+✅ **LightGBM** outperformed all models and was selected due to its accuracy and low computation cost.
 
+## Key Findings
+- Clear regional and seasonal sales patterns
+- Top brands and departments dominate sales
+- Color and retail price features are key predictors
+- Ensemble models outperformed linear models
 
 ## Files Description
 - **Project.ipynb**: Jupyter notebook containing the full pipeline—data preprocessing, EDA, feature engineering, modeling, and evaluation.
@@ -64,7 +71,7 @@ LightGBM outperformed all models and was selected for final deployment due to it
     ```bash
     conda env create -f environment.yml -n myenv
     ```
-
+    
 ---
 
 ## Contributors
