@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project aims to enhance operational efficiency and revenue at traditional department stores like Dillard’s by leveraging sales transaction data. We built machine learning models to **predict monthly sales** at SKU and store levels, identify key demand drivers, and analyze ROI of predictive modeling in inventory optimization.
+This project addresses inventory and procurement challenges faced by traditional retailers like Dillard’s by building a data-driven sales prediction system. Using a comprehensive dataset of over 120 million transactions, we developed machine learning models to forecast monthly sales at SKU and store levels, identify key demand drivers, and analyze ROI of predictive modeling in inventory optimization.
 
 ## Approach
 
 ### 1. Data Preprocessing
-- Read over 120M records from PostgreSQL
-- Cleaned 5 datasets (SKU, Store, Department, Transactions, SKU-Store Info). Addressed data inconsistencies, missing values, duplicates, and outliers
+- Read 5 datasets (SKU, Store, Department, Transactions, SKU-Store Info) from PostgreSQL
+- Addressed data inconsistencies, missing values, duplicates, and outliers
 
 ### 2. Exploratory Data Analysis
 - Analyzed correlation betweem numeric variables
