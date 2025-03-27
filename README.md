@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to enhance operational efficiency and revenue at traditional department stores like **Dillard’s** by leveraging sales transaction data. We built machine learning models to **predict monthly sales** at SKU and store levels, identify key demand drivers, and analyze ROI of predictive modeling in inventory optimization.
+This project aims to enhance operational efficiency and revenue at traditional department stores like Dillard’s by leveraging sales transaction data. We built machine learning models to **predict monthly sales** at SKU and store levels, identify key demand drivers, and analyze ROI of predictive modeling in inventory optimization.
 
 ## Approach
 
