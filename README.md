@@ -1,9 +1,8 @@
-# 🛍️ Retail Sales Forecasting and ROI Optimization
+# 🛍️ Dillard’s Monthly Sales Forecasting
 
 ## Project Overview
 
 This project aims to enhance operational efficiency and revenue at traditional department stores like **Dillard’s** by leveraging sales transaction data. We built machine learning models to **predict monthly sales** at SKU and store levels, identify key demand drivers, and analyze ROI of predictive modeling in inventory optimization.
-
 
 ## Approach
 
@@ -46,15 +45,12 @@ LightGBM outperformed all models and was selected for final deployment due to it
 
 
 ## Files Description
-
-```
-├── Project.ipynb         # Main project notebook
-├── Presentation.pdf      # Final slide deck
-├── Report.pdf            # Full technical report
-├── ROI_Analysis.xlsx     # ROI calculations
-├── environment.yml       # Conda environment for reproducibility
-└── README.md             # Project overview
-```
+- **Project.ipynb**: Jupyter notebook containing the full pipeline—data preprocessing, EDA, feature engineering, modeling, and evaluation.
+- **Presentation.pdf**: Final project presentation slides.
+- **Report.pdf**: Final report summarizing the entire project.
+- **ROI_Analysis.xlsx**: Excel workbook with detailed ROI calculations.
+- **environment.yml**: Conda environment file listing all dependencies and packages used for running the notebook.
+- **README.md**: Project overview and documentation.
 
 ## How to Run
 
@@ -72,6 +68,6 @@ LightGBM outperformed all models and was selected for final deployment due to it
 ---
 
 ## Contributors
-Junyi Chen
-Ananya Rattan Khurana
-Fuqian Zou  
+- Junyi Chen
+- Ananya Rattan Khurana
+- Fuqian Zou  
