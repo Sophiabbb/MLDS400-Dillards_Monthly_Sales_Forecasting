@@ -35,7 +35,7 @@ We evaluated models based on:
 
 ### 5. Model Comparison and Evaluation
 
-| Model           | R² Score | MSE     |
+| Model           | R² | MSE     |
 |----------------|----------|---------|
 | Linear Regression| 0.6312   | 292.91  |
 | Ridge Regression | 0.6312   | 292.91  |
