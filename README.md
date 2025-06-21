@@ -1,4 +1,4 @@
-# 🛍️ Dillard’s Monthly Sales Forecasting
+# Dillard’s Monthly Sales Forecasting
 
 ## Project Overview
 
@@ -43,7 +43,7 @@ We evaluated models based on:
 | **LightGBM**     | **0.7575** | **192.57** |
 | XGBoost          | 0.7532   | 195.99  |
 
-✅ **LightGBM** outperformed all models and was selected due to its accuracy and low computation cost.
+**LightGBM** outperformed all models and was selected due to its accuracy and low computation cost.
 
 ## Key Findings
 - Clear regional and seasonal sales patterns
